@@ -1,15 +1,3 @@
-hrs = input("Enter Hours:")
-rate = input("What is your FCK rate?:")
-h = float(hrs)
-r = float(rate)
-ro = float(10.50 * 1.5)
-if h <= 40 :
-    z = h * r
-    print(float (z))
-elif h >= 41 :
-    o = ((h - 40) * ro) + (40 * r)
-    print(float (o))
-
     # Запитуємо кількість годин та ставку на годину у користувача
 hrs = input("Введіть кількість робочих годин: ")
 rate = input("Введіть ставку на годину: ")
